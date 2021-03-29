@@ -1,0 +1,76 @@
+.work-scheme {
+    padding-top: 45px;
+    padding-bottom: 50px;
+
+    &__top-title {
+        font-size: 42px;
+        font-family: $ff-bold;
+        text-align: center;
+    }
+
+    &__box {
+        margin: 0 auto;
+        margin-top: 105px;
+        max-width: 760px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__card {
+        padding-bottom: 50px;
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+
+        &-circle {
+            $size: 48px;
+            min-width: $size;
+            min-height: $size;
+            max-width: $size;
+            max-height: $size;
+
+            background-color: #2631d1;
+            border-radius: 50%;
+            border: 2px solid white;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .num {
+                color: white;
+                font-size: 20px;
+                font-family: $ff-bold;
+            }
+            .line {
+                position: absolute;
+                bottom: 0;
+                z-index: -1;
+
+                width: 2px;
+                height: 100%;
+                background-color: #e8e8e8;
+            }
+        }
+
+        &-descr {
+            margin-left: 50px;
+
+            h3 {
+                font-size: 22px;
+                font-family: $ff-bold;
+            }
+
+            p {
+                margin-top: 10px;
+                font-size: 15px;
+                line-height: 1.55;
+    
+                span {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.button {
+    width: 260px;
+    height: 60px;
+    background-color: #f5e503;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    color: black;
+    font-size: 16px;
+    font-family: $ff-bold;
+
+    &--border {
+        border: 2px solid white;
+    }
+
+    &--link {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-family: $ff-bold;
+    }
+
+    &:hover {
+        background-color: #c9bf08
+    }
+}

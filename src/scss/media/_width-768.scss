@@ -1,0 +1,75 @@
+@media (max-width: 768px) {
+    .sticky-info {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 188px;
+
+        &--container {
+            height: 100%;
+            padding: 35px 0;
+    
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        img {
+            width: 180px;
+        }
+    }
+
+    .promo {
+        padding-top: 300px;
+        min-height: 800px;
+        background-position: center 140px;
+
+        &__wrapper {
+            max-width: 100%;
+        }
+
+        h1 {
+            font-size: 38px;
+        }
+    }
+
+    .causes .causes__box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .causes__card {
+            margin-top: 30px;
+            max-width: 100%;
+        }
+    }
+
+    .professionals .professionals__wrapper {
+        max-width: 100%;
+    }
+
+    .form-section {
+
+        form {
+            flex-direction: column;
+
+            input, button {
+                margin: 0;
+                margin-top: 25px;
+            }
+            input {
+                max-width: 100%;
+            }
+            button {
+                width: 100%;
+            }
+        }
+    }
+
+    .additional-services__box {
+        justify-content: center;
+    }
+    .additional-services__card {
+        flex-basis: 50%;
+    }
+}

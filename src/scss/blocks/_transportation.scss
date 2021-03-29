@@ -1,0 +1,38 @@
+.transportation {
+    background-color: #e6e6e6;
+    padding-top: 30px;
+    padding-bottom: 90px;
+
+    &__top-title {
+        font-size: 22px;
+        font-family: $ff-bold;
+        text-align: center;
+    }
+
+    &__box {
+        margin: 0 -30px;
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__card {
+        margin: 0 30px;
+        margin-top: 30px;
+        width: 100%;
+        max-width: 290px;
+        
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 84px;
+        }
+
+        &-descr {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+}

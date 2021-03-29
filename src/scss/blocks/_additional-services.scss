@@ -1,0 +1,36 @@
+.additional-services {
+    padding-top: 30px;
+    padding-bottom: 60px;
+
+    &__top-title {
+        font-size: 24px;
+        font-family: $ff-bold;
+        text-align: center;
+    }
+
+    &__box {
+        margin: 0 -10px;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__card {
+        padding: 0 10px;
+        margin-top: 35px;
+        flex-basis: 33%;
+        flex-shrink: 0;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        &-descr {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+}

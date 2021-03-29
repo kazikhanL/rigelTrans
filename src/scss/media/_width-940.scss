@@ -1,0 +1,22 @@
+@media (max-width: 940px) {
+    .additional-services .additional-services__card {
+        max-width: 330px;
+    }
+
+    .transportation .transportation__box {
+        justify-content: center;
+
+        .transportation__card {
+            max-width: 230px;
+        }
+    }
+
+    .slider {
+        &__left-btn {
+            left: 0;
+        }
+        &__right-btn {
+            right: 0;
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.form-section {
+    padding: 60px 0;
+    background-color: $main-color;
+
+    &__top-title {
+        color: white;
+        font-size: 42px;
+        font-family: $ff-bold;
+        text-align: center;
+    }
+
+    form {
+        max-width: 960px;
+        margin: 0 auto;
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        input {
+            margin-right: 20px;
+            padding: 0 20px;
+            height: 60px;
+            width: 100%;
+            max-width: 226px;
+            font-size: 16px;
+        }
+
+        button {
+            width: 223px;
+            min-width: 160px;
+        }
+    }
+
+    &__message {
+        display: none;
+        margin: 20px auto;
+        padding: 20px;
+        width: 100%;
+        max-width: 960px;
+        min-height: 40px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        background-color: #62C584;
+
+        &--error {
+            background-color: #F95D51;
+        }
+
+        &--active {
+            display: block;
+        }
+    }
+
+    &__phone {
+        margin-top: 40px;
+        color: wheat;
+        font-size: 15px;
+        font-family: $ff-bold;
+        text-align: center;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}

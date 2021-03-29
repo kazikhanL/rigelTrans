@@ -1,0 +1,53 @@
+@media (max-width: 525px) {
+    .promo h1 {
+        font-size: 36px;
+    }
+
+    .causes__card h4,
+    .causes__top-title {
+        font-size: 32px;
+    }
+
+    .professionals h2 {
+        font-size: 22px;
+    }
+
+    .work-scheme__top-title,
+    .form-section__top-title {
+        font-size: 30px;
+    }
+
+    .work-scheme__card-descr {
+        margin-left: 20px;
+    }
+
+    .services .services__top-title,
+    .transportation__top-title,
+    .additional-services__top-title {
+        font-size: 20px;
+    }
+
+    .footer {
+        padding: 30px 0;
+
+        ul {
+            margin: 0;
+            margin-top: 15px;
+        }
+
+        .footer__box {
+            display: flex;
+            flex-direction: column;
+            
+        }
+    }
+
+    .contacts-btn {
+        right: 30px;
+        bottom: 40px;
+    }
+
+    .additional-services__card {
+        flex-basis: 100%;
+    }
+}

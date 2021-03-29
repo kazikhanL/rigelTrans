@@ -1,0 +1,40 @@
+@import "./width-940";
+@import "./width-768";
+@import "./width-525";
+
+
+@media (max-width: 635px) {
+    .slider {
+        &__dot {
+            margin: 0 5px;
+            width: 8px;
+            height: 8px;
+        }
+
+        &__left-btn,
+        &__right-btn {
+            width: 30px;
+            height: 30px;
+
+            &::before,
+            &::after {
+                width: 7px;
+                height: 1px;
+            }
+            &::before {
+                top: 16.3px;
+            }
+            &::after {
+                bottom: 16.3px;
+            }
+        }
+        &__left-btn {
+            left: 5%;
+            transform: translateY(-50%) rotate(0deg);
+        }
+        &__right-btn {
+            right: 5%;
+            transform: translateY(-50%) rotate(180deg);
+        }
+    }
+}

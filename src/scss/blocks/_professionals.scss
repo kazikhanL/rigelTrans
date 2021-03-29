@@ -1,0 +1,27 @@
+.professionals {
+    padding-top: 240px;
+    padding-bottom: 140px;
+    background-image: url("./../images/professionals_bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    &__wrapper {
+        width: 100%;
+        max-width: 460px;
+
+        h2 {
+            margin-top: 20px;
+            color: white;
+            font-size: 34px;
+            font-family: $ff-bold;
+        }
+    }
+
+    &__line {
+        width: 140px;
+        height: 1px;
+        background-color: #fff;
+    }
+}

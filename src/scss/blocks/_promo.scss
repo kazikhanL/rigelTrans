@@ -1,0 +1,42 @@
+.promo {
+    position: relative;
+    padding: 120px 0;
+    min-height: 587px;
+    background: url("./../images/promo_bg.jpg") center (center / cover) no-repeat;
+
+    &__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        background: linear-gradient(top, rgba(5, 37, 85, 0.8), rgba(5, 37, 85, 0.8));
+
+        width: 100%;
+        height: 100%;
+    }
+
+    &__wrapper {
+        position: relative;
+        z-index: 10;
+        max-width: 660px;
+        color: white;
+
+        h1 {
+            margin: 0;
+            font-size: 38px;
+            font-family: $ff-bold;
+        }
+
+        ul {
+            margin-top: 30px;
+            margin-bottom: 60px;
+            padding-left: 20px;
+            
+            li {
+                font-size: 18px;
+                font-family: $ff-bold;
+                line-height: 1.55;
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.services {
+    padding-top: 25px;
+    padding-bottom: 140px;
+    background-color: #f2e9e9;
+
+    &__top-title {
+        font-size: 24px;
+        font-family: $ff-bold;
+        text-align: center;
+    }
+
+    &__box {
+        margin: 0 -20px;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__list {
+        margin: 0 20px;
+        margin-top: 20px;
+        list-style-type: none;
+
+        li {
+            margin-top: 10px;
+            padding: 0 10px;
+            font-size: 20px;
+
+            &::before {
+                content: "+";
+                margin-right: 10px;
+            }
+        }
+    }
+}

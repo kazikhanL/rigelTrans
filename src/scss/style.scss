@@ -1,0 +1,41 @@
+@import "./libs/normalize";
+@import "./libs/fonts";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+header, section, footer {
+    overflow: hidden;
+}
+
+html {
+    font-family: $ff-light;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+$main-color: #052555;
+
+@import "./blocks/button";
+@import "./blocks/sticky-info";
+@import "./blocks/promo";
+@import "./blocks/causes";
+@import "./blocks/professionals";
+@import "./blocks/work-scheme";
+@import "./blocks/services";
+@import "./blocks/form-section";
+@import "./blocks/transportation";
+@import "./blocks/additional-services";
+@import "./blocks/footer";
+@import "./blocks/contacts-btn";
+@import "./blocks/slider";
+
+@import "./media/media";

@@ -1,0 +1,57 @@
+.footer {
+    padding-top: 30px;
+    padding-bottom: 120px;
+    background-color: $main-color;
+
+    &__box {
+        ul {
+            margin-top: 40px;
+            margin-right: 25px;
+            list-style-type: none;
+
+            li {
+                margin-top: 15px;
+
+                a {
+                    color: white;
+                    font-family: $ff-bold;
+                    text-decoration: none;
+                }
+            }
+
+            &:first-child {
+                margin-right: 10%;
+            }
+            &:nth-child(2) {
+                margin-right: 10%;
+            }
+        }
+    }
+
+    &__info {
+        display: inline-block;
+
+        li {
+            margin-top: 30px;
+        }
+
+        img {
+            width: 240px;
+        }
+
+        address {
+            color: #7d7d7d;
+            font-size: 14px;
+            font-style: normal;
+        }
+    }
+
+    &__list {
+        display: inline-block;
+
+        li a {
+            font-size: 12px;
+            font-weight: 500;
+        }
+    }
+}
